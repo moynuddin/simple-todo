@@ -1,0 +1,48 @@
+.notodos {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #c1c1c1;
+}
+
+.items {
+  width: 380px;
+  margin: 20px auto;
+  background: aquamarine;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease-out;
+}
+
+.items:hover :nth-child(1) {
+  visibility: visible;
+}
+
+.todoItems {
+  width: 80%;
+  cursor: pointer;
+  word-wrap: break-word;
+  text-align: justify;
+  border: none;
+  background-color: transparent;
+}
+
+/* .todoItems:focus {
+  text-decoration: line-through;
+} */
+
+.operation {
+  width: 20%;
+  visibility: hidden;
+}
+
+.done {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  padding-right: 5px;
+  cursor: pointer;
+}

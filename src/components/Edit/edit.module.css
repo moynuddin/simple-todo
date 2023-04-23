@@ -1,0 +1,15 @@
+.formControl {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: 2px solid #0f0e0e;
+  padding-left: 10px;
+}
+
+.btn {
+  padding: 8px;
+  margin-left: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
